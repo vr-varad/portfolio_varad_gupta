@@ -25,5 +25,5 @@ This portfolio showcases my work as a web developer and provides insight into my
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/yourusername/your-portfolio.git
+   git clone https://github.com/vr-varad21/portfolio_varad_gupta.git
    cd your-portfolio
