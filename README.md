@@ -1,7 +1,5 @@
 # Varad Gupta's Portfolio
 
-![Portfolio Screenshot](screenshot.png)
-
 Welcome to my portfolio website! You can access the live site at [varadgupta.netlify.app](https://varadgupta.netlify.app/).
 
 ## About
