@@ -79,7 +79,7 @@ body{
   background-color: rgb(225, 225, 225);
 }
 .portfolio .works .work p{
-  font-size: 1vw;
+  font-size: 0.7vw;
 }
 .portfolio .works .work .pic{
   height: 50%;
@@ -90,7 +90,7 @@ body{
   background-position: center;
   margin: auto;
   margin-top: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .portfolio a{
   text-decoration: none;
