@@ -64,6 +64,7 @@ body{
 }
 
 .portfolio .works{
+  font-size: 1.2vw;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
