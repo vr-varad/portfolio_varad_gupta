@@ -72,12 +72,14 @@ body{
   align-items: center;
 }
 .portfolio .works .work{
-  font-size: 1vw;
   height: 50vh;
   width: 18vw ;
   margin: 20px 30px;
   border-radius: 30px;
   background-color: rgb(225, 225, 225);
+}
+.portfolio .works .work p{
+  font-size: 1vw;
 }
 .portfolio .works .work .pic{
   height: 50%;
