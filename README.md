@@ -1,6 +1,6 @@
 # Varad Gupta's Portfolio
 
-Welcome to my portfolio website! You can access the live site at [varadgupta.netlify.app](https://varadgupta.netlify.app/).
+Welcome to my portfolio website! You can access the live site at https://vr-varad.vercel.app/.
 
 ## About
 
