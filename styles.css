@@ -53,7 +53,6 @@ body{
 }
 
 .portfolio,.about,.contact{
-  height: 100vh;
   border-left:30vw solid black ;
    font-family: 'Kanit', sans-serif;
   color: rgb(10, 9, 37); 
@@ -61,6 +60,9 @@ body{
 }
 .portfolio h1{
   font-size: 5vw;
+}
+.contact{
+  height:   ;
 }
 
 .portfolio .works{
@@ -73,13 +75,13 @@ body{
 }
 .portfolio .works .work{
   height: 50vh;
-  width: 18vw ;
+  width: 400px ;
   margin: 20px 30px;
   border-radius: 30px;
   background-color: rgb(225, 225, 225);
 }
 .portfolio .works .work p{
-  font-size: 1vw;
+  font-size: 0.7vw;
 }
 .portfolio .works .work .pic{
   height: 50%;
@@ -90,22 +92,98 @@ body{
   background-position: center;
   margin: auto;
   margin-top: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .portfolio a{
   text-decoration: none;
   color: black;
 }
 
+
+.skill-container {
+            max-width: 90%;
+            margin: 100px auto 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: relative;
+            background: rgb(10, 9, 37);
+        }
+        .skill-container h1 {
+            text-align: center;
+            font-size: 3vw;
+            color: #fff;
+            letter-spacing: 3px;
+          }
+          
+          .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            padding-left: 30px;
+          }
+          
+          .skill-category {
+          text-align: left;
+            font-size: 20px;
+            color: aqua;
+            letter-spacing: 3px;
+        }
+
+        .skill-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .skill {
+          text-align: left;
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: white;
+            letter-spacing: 2px;
+        }
+
 .about{
   font-size: 1vw;
-  padding: 0 30px ;
-}
-.about h1{
-  font-size: 5vw;
+  padding: 100px 30px 0;
 }
 
+.container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px 40px 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .container h1 {
+          margin: 0;
+            text-align: center;
+            font-size: 4vw;
+        }
+
+        .container p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .intro {
+            margin-top: 20px;
+        }
+
+        .interests {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+        }
+
 .contact {
+  height: 100vh;
   text-align: end;
   padding-left: 40px;
   padding-right: 30px;
@@ -131,4 +209,17 @@ body{
   margin-right: 0px;
   font-size: 2vw;
   color: rgb(12, 33, 56)
+}
+
+
+@media only screen and (max-width: 1300px) {
+ .skills-grid {
+  grid-template-columns: 100%;
+  } 
+  .interests{
+    display: none;
+  }
+  .nav ul li{
+    padding: 30px 0 ;
+  }
 }
