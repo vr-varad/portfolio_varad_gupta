@@ -75,7 +75,7 @@ body{
 }
 .portfolio .works .work{
   height: 50vh;
-  width: 400px ;
+  width: 300px ;
   margin: 20px 30px;
   border-radius: 30px;
   background-color: rgb(225, 225, 225);
@@ -120,6 +120,7 @@ body{
             display: grid;
             grid-template-columns: repeat(5, 1fr);
             padding-left: 30px;
+            gap: 10px;
           }
           
           .skill-category {
